@@ -1,0 +1,66 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.top_box {
+    width :50%;
+    height :500px;
+    background-image : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYsFGDe5kfL0zgUWjftc39aeDBX5RgTiHZVtt1DUE22Unw9jZ-");
+    background-size : cover;
+    float : left;
+    overflow: hidden;
+    
+}
+
+.serif_box {
+    width :50%;
+    height : 500px;
+    float : left;
+    text-align : center;
+    line-height : 60px;
+    font-size :30px;
+}
+
+.total_botan {
+    width :100%;
+    height : 250px;
+    text-align : center;
+}
+
+
+.total {
+    font-size : 20px;
+    line-height :10px;
+}
+
+
+.vegita_box {
+    width :50%;
+    height :500px;
+    background-image : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZR8Nf5hmuaz-Jw6heRSZNg027cT33ll7g_ycyOSektyiN6lAu6Q");
+    background-size : cover;
+    float : left;
+    overflow: hidden; 
+}
+
+.buro_box {
+    width :50%;
+    height :500px;
+    background-image : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Qi1xDnVtKErjqiopCYT-uCLgPghB5UZAvcvaE621NzpN5xH71A");
+    background-size : cover;
+    float : left;
+    overflow: hidden; 
+}
+
+.yamu_box {
+    width :50%;
+    height :500px;
+    background-image : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYn1--5npISdOBuwWbPFn789XkONz0642Tz1rZi5Fw4zo4IRqm");
+    background-size : cover;
+    float : left;
+    overflow: hidden; 
+}
+
+.thanks_box {
+    width :100%;
+    text-align:center;
+}
