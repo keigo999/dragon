@@ -1,0 +1,53 @@
+
+
+ <div class = "main_text_box">
+    <p><em>オッス、オラ悟空！</em><br>
+    おめぇの知りてぇキャラをタップしてくれよな！</p>
+ </div>
+ <div class ="character_box">
+  <div class = "btn gokuu">
+     <p>悟空</p>
+  </div>
+ 
+  <div class = "btn vegita">
+     <p>ベジータ</p>
+  </div>
+ 
+  <div class = "btn buro">
+     <p>ブロリー</p>
+  </div>
+ 
+  <div class = "btn yamu">
+     <p>ヤムチャ</p>
+  </div>
+ </div>
+ 
+ <div class = "vote_box">
+  <div class = "message_box">
+   <p>好きなキャラを選んで投票してくれよな！</p>
+  </div>
+  
+  <%= form_tag("/selection") do %> 
+   <div class = "radio_1">
+    <div class = "radio_mini">
+     <input class = "botan"  type = "checkbox" name = "gokuu_id" >悟空
+    </div>
+   
+    <div class = "radio_mini">
+     <input  class = "botan" type = "checkbox" name = "vegita_id">ベジータ
+    </div>
+  
+    <div class = "radio_mini">
+     <input  class = "botan" type = "checkbox" name = "buro_id">ブロリー
+    </div>
+  
+    <div class = "radio_mini">
+     <input  class = "botan" type = "checkbox" name = "yamu_id">ヤムチャ
+    </div>
+   </div>
+  
+   <div class = "vote_botan">
+    <input class = "submit_botan" type = "submit"   value = "投票">
+   </div>
+  <% end %>
+ </div>
